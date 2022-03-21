@@ -11,7 +11,7 @@ const VideoDetail = ({ video }) => {
     return (
         <>
             <Paper elevation={6} style={{}}>
-                <iframe frameBorder="0" height="100%" width="100%" title="Video Player" src={videoSrc} />
+                <iframe frameBorder="0" height="300px" width="100%" title="Video Player" src={videoSrc} />
             </Paper>
             <Paper elevation={6} style={{ padding: '15px' }}>
                 <Typography variant="h5">{video.snippet.title} - {video.snippet.channelTitle}</Typography>
